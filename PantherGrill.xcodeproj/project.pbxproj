@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		44ACAF142649487200157DD3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44ACAF132649487200157DD3 /* AppDelegate.swift */; };
+		44ACAF162649487200157DD3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44ACAF152649487200157DD3 /* SceneDelegate.swift */; };
+		44ACAF182649487200157DD3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44ACAF172649487200157DD3 /* ViewController.swift */; };
+		44ACAF1B2649487200157DD3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44ACAF192649487200157DD3 /* Main.storyboard */; };
+		44ACAF1E2649487200157DD3 /* PantherGrill.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 44ACAF1C2649487200157DD3 /* PantherGrill.xcdatamodeld */; };
+		44ACAF202649487400157DD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44ACAF1F2649487400157DD3 /* Assets.xcassets */; };
+		44ACAF232649487400157DD3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44ACAF212649487400157DD3 /* LaunchScreen.storyboard */; };
+		44ACAF2E2649487500157DD3 /* PantherGrillTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44ACAF2D2649487500157DD3 /* PantherGrillTests.swift */; };
+		44ACAF392649487500157DD3 /* PantherGrillUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44ACAF382649487500157DD3 /* PantherGrillUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		44ACAF2A2649487500157DD3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44ACAF082649487200157DD3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 44ACAF0F2649487200157DD3;
+			remoteInfo = PantherGrill;
+		};
+		44ACAF352649487500157DD3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44ACAF082649487200157DD3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 44ACAF0F2649487200157DD3;
+			remoteInfo = PantherGrill;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		44ACAF102649487200157DD3 /* PantherGrill.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PantherGrill.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		44ACAF132649487200157DD3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		44ACAF152649487200157DD3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		44ACAF172649487200157DD3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		44ACAF1A2649487200157DD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		44ACAF1D2649487200157DD3 /* PantherGrill.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PantherGrill.xcdatamodel; sourceTree = "<group>"; };
+		44ACAF1F2649487400157DD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		44ACAF222649487400157DD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		44ACAF242649487400157DD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44ACAF292649487500157DD3 /* PantherGrillTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PantherGrillTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		44ACAF2D2649487500157DD3 /* PantherGrillTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PantherGrillTests.swift; sourceTree = "<group>"; };
+		44ACAF2F2649487500157DD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44ACAF342649487500157DD3 /* PantherGrillUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PantherGrillUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		44ACAF382649487500157DD3 /* PantherGrillUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PantherGrillUITests.swift; sourceTree = "<group>"; };
+		44ACAF3A2649487500157DD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		44ACAF0D2649487200157DD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44ACAF262649487500157DD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44ACAF312649487500157DD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		44ACAF072649487200157DD3 = {
+			isa = PBXGroup;
+			children = (
+				44ACAF122649487200157DD3 /* PantherGrill */,
+				44ACAF2C2649487500157DD3 /* PantherGrillTests */,
+				44ACAF372649487500157DD3 /* PantherGrillUITests */,
+				44ACAF112649487200157DD3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		44ACAF112649487200157DD3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				44ACAF102649487200157DD3 /* PantherGrill.app */,
+				44ACAF292649487500157DD3 /* PantherGrillTests.xctest */,
+				44ACAF342649487500157DD3 /* PantherGrillUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		44ACAF122649487200157DD3 /* PantherGrill */ = {
+			isa = PBXGroup;
+			children = (
+				44ACAF132649487200157DD3 /* AppDelegate.swift */,
+				44ACAF152649487200157DD3 /* SceneDelegate.swift */,
+				44ACAF172649487200157DD3 /* ViewController.swift */,
+				44ACAF192649487200157DD3 /* Main.storyboard */,
+				44ACAF1F2649487400157DD3 /* Assets.xcassets */,
+				44ACAF212649487400157DD3 /* LaunchScreen.storyboard */,
+				44ACAF242649487400157DD3 /* Info.plist */,
+				44ACAF1C2649487200157DD3 /* PantherGrill.xcdatamodeld */,
+			);
+			path = PantherGrill;
+			sourceTree = "<group>";
+		};
+		44ACAF2C2649487500157DD3 /* PantherGrillTests */ = {
+			isa = PBXGroup;
+			children = (
+				44ACAF2D2649487500157DD3 /* PantherGrillTests.swift */,
+				44ACAF2F2649487500157DD3 /* Info.plist */,
+			);
+			path = PantherGrillTests;
+			sourceTree = "<group>";
+		};
+		44ACAF372649487500157DD3 /* PantherGrillUITests */ = {
+			isa = PBXGroup;
+			children = (
+				44ACAF382649487500157DD3 /* PantherGrillUITests.swift */,
+				44ACAF3A2649487500157DD3 /* Info.plist */,
+			);
+			path = PantherGrillUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		44ACAF0F2649487200157DD3 /* PantherGrill */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44ACAF3D2649487500157DD3 /* Build configuration list for PBXNativeTarget "PantherGrill" */;
+			buildPhases = (
+				44ACAF0C2649487200157DD3 /* Sources */,
+				44ACAF0D2649487200157DD3 /* Frameworks */,
+				44ACAF0E2649487200157DD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PantherGrill;
+			productName = PantherGrill;
+			productReference = 44ACAF102649487200157DD3 /* PantherGrill.app */;
+			productType = "com.apple.product-type.application";
+		};
+		44ACAF282649487500157DD3 /* PantherGrillTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44ACAF402649487500157DD3 /* Build configuration list for PBXNativeTarget "PantherGrillTests" */;
+			buildPhases = (
+				44ACAF252649487500157DD3 /* Sources */,
+				44ACAF262649487500157DD3 /* Frameworks */,
+				44ACAF272649487500157DD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				44ACAF2B2649487500157DD3 /* PBXTargetDependency */,
+			);
+			name = PantherGrillTests;
+			productName = PantherGrillTests;
+			productReference = 44ACAF292649487500157DD3 /* PantherGrillTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		44ACAF332649487500157DD3 /* PantherGrillUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44ACAF432649487500157DD3 /* Build configuration list for PBXNativeTarget "PantherGrillUITests" */;
+			buildPhases = (
+				44ACAF302649487500157DD3 /* Sources */,
+				44ACAF312649487500157DD3 /* Frameworks */,
+				44ACAF322649487500157DD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				44ACAF362649487500157DD3 /* PBXTargetDependency */,
+			);
+			name = PantherGrillUITests;
+			productName = PantherGrillUITests;
+			productReference = 44ACAF342649487500157DD3 /* PantherGrillUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		44ACAF082649487200157DD3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					44ACAF0F2649487200157DD3 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					44ACAF282649487500157DD3 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 44ACAF0F2649487200157DD3;
+					};
+					44ACAF332649487500157DD3 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 44ACAF0F2649487200157DD3;
+					};
+				};
+			};
+			buildConfigurationList = 44ACAF0B2649487200157DD3 /* Build configuration list for PBXProject "PantherGrill" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 44ACAF072649487200157DD3;
+			productRefGroup = 44ACAF112649487200157DD3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				44ACAF0F2649487200157DD3 /* PantherGrill */,
+				44ACAF282649487500157DD3 /* PantherGrillTests */,
+				44ACAF332649487500157DD3 /* PantherGrillUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		44ACAF0E2649487200157DD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44ACAF232649487400157DD3 /* LaunchScreen.storyboard in Resources */,
+				44ACAF202649487400157DD3 /* Assets.xcassets in Resources */,
+				44ACAF1B2649487200157DD3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44ACAF272649487500157DD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44ACAF322649487500157DD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		44ACAF0C2649487200157DD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44ACAF182649487200157DD3 /* ViewController.swift in Sources */,
+				44ACAF1E2649487200157DD3 /* PantherGrill.xcdatamodeld in Sources */,
+				44ACAF142649487200157DD3 /* AppDelegate.swift in Sources */,
+				44ACAF162649487200157DD3 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44ACAF252649487500157DD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44ACAF2E2649487500157DD3 /* PantherGrillTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44ACAF302649487500157DD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44ACAF392649487500157DD3 /* PantherGrillUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		44ACAF2B2649487500157DD3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 44ACAF0F2649487200157DD3 /* PantherGrill */;
+			targetProxy = 44ACAF2A2649487500157DD3 /* PBXContainerItemProxy */;
+		};
+		44ACAF362649487500157DD3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 44ACAF0F2649487200157DD3 /* PantherGrill */;
+			targetProxy = 44ACAF352649487500157DD3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		44ACAF192649487200157DD3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44ACAF1A2649487200157DD3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		44ACAF212649487400157DD3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44ACAF222649487400157DD3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		44ACAF3B2649487500157DD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		44ACAF3C2649487500157DD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		44ACAF3E2649487500157DD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L64FTA8TNY;
+				INFOPLIST_FILE = PantherGrill/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Kelsey-Benjamin.PantherGrill";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		44ACAF3F2649487500157DD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L64FTA8TNY;
+				INFOPLIST_FILE = PantherGrill/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Kelsey-Benjamin.PantherGrill";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		44ACAF412649487500157DD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L64FTA8TNY;
+				INFOPLIST_FILE = PantherGrillTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Kelsey-Benjamin.PantherGrillTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PantherGrill.app/PantherGrill";
+			};
+			name = Debug;
+		};
+		44ACAF422649487500157DD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L64FTA8TNY;
+				INFOPLIST_FILE = PantherGrillTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Kelsey-Benjamin.PantherGrillTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PantherGrill.app/PantherGrill";
+			};
+			name = Release;
+		};
+		44ACAF442649487500157DD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L64FTA8TNY;
+				INFOPLIST_FILE = PantherGrillUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Kelsey-Benjamin.PantherGrillUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PantherGrill;
+			};
+			name = Debug;
+		};
+		44ACAF452649487500157DD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L64FTA8TNY;
+				INFOPLIST_FILE = PantherGrillUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Kelsey-Benjamin.PantherGrillUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PantherGrill;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		44ACAF0B2649487200157DD3 /* Build configuration list for PBXProject "PantherGrill" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44ACAF3B2649487500157DD3 /* Debug */,
+				44ACAF3C2649487500157DD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44ACAF3D2649487500157DD3 /* Build configuration list for PBXNativeTarget "PantherGrill" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44ACAF3E2649487500157DD3 /* Debug */,
+				44ACAF3F2649487500157DD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44ACAF402649487500157DD3 /* Build configuration list for PBXNativeTarget "PantherGrillTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44ACAF412649487500157DD3 /* Debug */,
+				44ACAF422649487500157DD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44ACAF432649487500157DD3 /* Build configuration list for PBXNativeTarget "PantherGrillUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44ACAF442649487500157DD3 /* Debug */,
+				44ACAF452649487500157DD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		44ACAF1C2649487200157DD3 /* PantherGrill.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				44ACAF1D2649487200157DD3 /* PantherGrill.xcdatamodel */,
+			);
+			currentVersion = 44ACAF1D2649487200157DD3 /* PantherGrill.xcdatamodel */;
+			path = PantherGrill.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 44ACAF082649487200157DD3 /* Project object */;
+}
